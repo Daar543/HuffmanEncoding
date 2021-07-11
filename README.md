@@ -31,13 +31,17 @@ The tree description is terminated via a special sequence consisting of 8 zero b
 The inner nodes have the following format:
 
 bit 0: is set to 0, indicating that this node is an inner node
+
 bits 1-55: contain lower 55 bits of the weight of the inner node
+
 bits 56-63: are set to zero
 
 And the leaf nodes have the following format:
 
 bit 0: is set to 1, indicating that this node is a leaf node
+
 bits 1-55: contain lower 55 bits of the weight of the leaf node
+
 bits 56-63: 8-bit value of the symbol this leaf node corresponds to
 
 3. Encoding

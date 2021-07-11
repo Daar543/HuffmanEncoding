@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Huffman2": {
+      "commandName": "Project",
+      "commandLineArgs": "emptyfile.txt"
+    }
+  }
+}

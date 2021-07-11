@@ -2,7 +2,7 @@
 
 A solution (from scratch) of a homework to C# Programming.
 
-===1. Description of Huffman Tree===
+1. Description of Huffman Tree
 
 A Huffman tree is a binary tree whose leaf nodes contain all characters present in the input file at least once. 
 The weight of a character refers to the number of occurrences of this character in the input file. 
